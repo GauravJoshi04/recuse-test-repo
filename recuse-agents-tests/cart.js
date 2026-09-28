@@ -19,3 +19,7 @@ export function getItem(items, index) {
 
     return items[index];
 }
+
+export function getCartItemCount(items) {
+    return items.length;
+}
